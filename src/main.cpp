@@ -1,17 +1,13 @@
 /*
  * @Author: Haijia Zhu
  * @Date: 2020-12-17 20:29:47
- * @LastEditTime: 2020-12-18 19:24:54
+ * @LastEditTime: 2020-12-18 19:25:56
  * @LastEditors: Please set LastEditors
  * @Description: Coffee bean roaster using Modbus TCP/IP(Board:Goouuu mini S-1)
  * @FilePath: \Coffee Roaster\src\main.cpp
  */
 #include <Arduino.h>
-#ifdef ESP8266
- #include <ESP8266WiFi.h>
-#else
- #include <WiFi.h>
-#endif
+#include <ESP8266WiFi.h>
 #include <ModbusIP_ESP8266.h>
 #include <max6675.h>
 #include <PID_v1.h>
