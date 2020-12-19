@@ -1,7 +1,7 @@
 /*
  * @Author: Haijia Zhu
  * @Date: 2020-12-17 20:29:47
- * @LastEditTime: 2020-12-18 15:08:47
+ * @LastEditTime: 2020-12-18 19:24:54
  * @LastEditors: Please set LastEditors
  * @Description: Coffee bean roaster using Modbus TCP/IP(Board:Goouuu mini S-1)
  * @FilePath: \Coffee Roaster\src\main.cpp
@@ -26,7 +26,7 @@
 #define SPI_MISO    12  //D12
 #define HEATER_PWM  13  //D16  Heater
 #define FAN_PWM     16   //D2   Fan
-#define FAN_PWM     2   // LCD screen 片选 暂时没有！  121212
+#define LCD_CS      2   // LCD screen 片选 暂时没有！  121212
 
 bool state = true;
 // MAX6675
